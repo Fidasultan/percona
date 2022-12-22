@@ -10,7 +10,7 @@
 ### On First node
 ##### Add Percona Repository
 ```
-wget https://repo.percona.com/apt/percona-release_0.1-6.$(lsb_release -sc)_all.deb
+wget https://repo.percona.com/pxc-57/apt/dists/bionic/main/binary-i386/Packages
 dpkg -i percona-release_0.1-6.$(lsb_release -sc)_all.deb
 ```
 ##### Install Percona-XtraDB-Cluster
